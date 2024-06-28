@@ -1,4 +1,4 @@
-FROM node:18-slim as builder
+FROM registry.cn-beijing.aliyuncs.com/lu97/node as builder
 RUN apt-get update && apt-get install -y jq curl wget python3
 WORKDIR /app
 
